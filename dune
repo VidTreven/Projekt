@@ -1,0 +1,7 @@
+(executable
+ (name ucbenik)
+ (libraries vdom)
+ (modes js)
+ (promote
+  (until-clean)
+  (only ucbenik.bc.js)))
